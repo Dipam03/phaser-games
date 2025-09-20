@@ -11,7 +11,7 @@ import GardenHarvestGame from './GardenHarvestGame/GardenHarvestGame';
 import SourceSorterGame from './SourceSorterGame/SourceSorterGame';
 import GardenGobbleGame from "./GardenGobbleGame/GardenGobbleGame";
 import AnimalDietGame from './AnimalDietGame/AnimalDietGame';
-
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (

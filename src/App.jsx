@@ -31,16 +31,8 @@ function App() {
         <Route path='/garden-gobble-game' element={<GardenGobbleGame />} />
         <Route path='/animal-diet-game' element={<AnimalDietGame/>}/>
       </Routes>
+      <BrowserRouter basename="/phaser-games"><YourRoutes /></BrowserRouter>
     </div>
-  );
-}
-import { BrowserRouter } from "react-router-dom";
-
-function App() {
-  return (
-    <BrowserRouter basename="/phaser-games">
-      <YourRoutes />
-    </BrowserRouter>
   );
 }
 

@@ -34,5 +34,14 @@ function App() {
     </div>
   );
 }
+import { BrowserRouter } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter basename="/phaser-games">
+      <YourRoutes />
+    </BrowserRouter>
+  );
+}
 
 export default App;
